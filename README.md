@@ -28,4 +28,9 @@ You can try to commit these formulae to main homebrew but be aware that usually 
 
 ## Ardour 5
 
-I will try to install all the dependencies from https://nightly.ardour.org/list.php via home-brew with custom Formulae
+I will try to install all the dependencies from https://nightly.ardour.org/list.php via home-brew with custom Formulae.
+
+Already done:
+
+1.- pkg-config 0.28.
+2.- 
