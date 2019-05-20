@@ -4,19 +4,19 @@ class Atk < Formula
   url "http://ftp.gnome.org/pub/GNOME/sources/atk/2.14/atk-2.14.0.tar.xz"
   sha256 "cb41feda7fe4ef0daa024471438ea0219592baf7c291347e5a858bb64e4091cc"
 
-  depends_on "gobject-introspection" => :build
-  depends_on "meson" => :build
-  depends_on "ninja" => :build
-  depends_on "pkg-config" => :build
-  depends_on "glib"
+  #depends_on "gobject-introspection" => :build
+  #depends_on "meson" => :build
+  #depends_on "ninja" => :build
+  #depends_on "pkg-config" => :build
+  #depends_on "glib"
 
-  def install
-    mkdir "build" do
-      system "meson", "--prefix=#{prefix}", ".."
-      system "ninja"
-      system "ninja", "install"
-    end
-  end
+#  def install
+#    mkdir "build" do
+#      system "meson", "--prefix=#{prefix}", ".."
+#      system "ninja"
+#      system "ninja", "install"
+#    end
+#  end
 
   test do
     (testpath/"test.c").write <<~EOS
