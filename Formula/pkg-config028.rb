@@ -4,7 +4,7 @@ class pkgconfig028 < Formula
   url "http://pkgconfig.freedesktop.org/releases/pkg-config-0.28.tar.gz"
   #mirror "https://dl.bintray.com/homebrew/mirror/pkg-config-0.29.2.tar.gz"
   #mirror "http://fco.it.distfiles.macports.org/mirrors/macports-distfiles/pkgconfig/pkg-config-0.29.2.tar.gz"
-  sha256 "6fc69c01688c9458a57eb9a1664c9aba372ccda420a02bf4429fe610e7e7d591"
+  sha256 "D3611D825DE06EA099EF8BD422B28623299A7FE302A8E39AD10C0DD80CD1D622"
 
   bottle do
     #sha256 "85e5bbffb3424f22cd1bf54b69161110481bab100f9abea54e0a0f00fcf761b9" => :mojave
