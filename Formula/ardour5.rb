@@ -41,6 +41,19 @@ class Ardour5 < Formula
     url "https://gist.githubusercontent.com/david0/56ee00434e4693852c24/raw/ae47c87874c398378402e83688bc6f47fe86e83c/mkappbundle"
     sha256 "ef5d349e9281605bc115217b146c81e6e38aefb39b014139e859ba031460b838"
   end
+  
+  patch do
+    # commit e3c6a41c1190253eb46844ab6915c7aa673a7dc9 from upstream master to fix build on High Sierra
+    url "https://gist.githubusercontent.com/jgefele/baca5725ee2fa5067e901a5f2c2f9162/raw/3eeb2585947da3cad36450863c5d345fa825497b/0001-Adds-support-for-building-in-Mac-OS-High-Sierra.patch"
+    sha256 "9ba4a37fbb70cc467fe40aa9842b642861c00bc6157cdeca0c9f6701dcfc998e"
+  end
+
+  patch do
+    # fix framework reference from "CoreMidi" to "CoreMIDI" on High Sierra  --  Ardour developers have been informed about this
+    url "https://gist.githubusercontent.com/jgefele/baca5725ee2fa5067e901a5f2c2f9162/raw/99be80665e3e4072bf65862ac2e16f97ddcfe814/0002-Fixes-framework-CoreMIDI-for-building-in-Mac-OS-High-Sierra.patch"
+    sha256 "f25230d81898e1795183799d1ac8c05e18c366f6768d24a20b5944b7058269e1"
+  end
+
 
   # needs :cxx11
   def install
