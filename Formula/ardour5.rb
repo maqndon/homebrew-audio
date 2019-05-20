@@ -4,7 +4,7 @@ class Ardour5 < Formula
   url "git://git.ardour.org/ardour/ardour.git", :tag=>"5.10", :revision => "9c629c0c76808cc3e8f05e43bc760f849566dce6"
   head "git://git.ardour.org/ardour/ardour.git"
 
-  depends_on "pk-config"
+  depends_on "pkg-config"
   depends_on "boost"
   depends_on "cairo"
   depends_on "gtk+" #=> ["with-quartz-relocation"] # will need the ardour patch also most likely
