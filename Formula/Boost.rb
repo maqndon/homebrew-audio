@@ -4,7 +4,7 @@ class Boost < Formula
   url "http://sourceforge.net/projects/boost/files/boost/1.49.0/boost_1_49_0.tar.bz2"
   sha256 "dd748a7f5507a7e7af74f452e1c52a64e651ed1f7263fce438a06641d2180d3c"
 
-  depends_on "icu4c"
+  #depends_on "icu4c"
 
   def install
     # Force boost to compile with the desired compiler
