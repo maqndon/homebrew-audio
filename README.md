@@ -24,4 +24,8 @@ Any other LV2 host that is build via homebrew like [jalv](https://github.com/dav
 
 Feel free to issue a PR adding additional formulae or improving the existing ones.
 
-You can try to commit these formulae to main homebrew but be aware that usually each formula has some problems that make it not fulfill the minimum acceptable [formula criteria](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Acceptable-Formulae.md) (mostly *head-only*)  
+You can try to commit these formulae to main homebrew but be aware that usually each formula has some problems that make it not fulfill the minimum acceptable [formula criteria](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Acceptable-Formulae.md) (mostly *head-only*)
+
+## Ardour 5
+
+I will try to install all the dependencies from https://nightly.ardour.org/list.php via home-brew with custom Formulae
