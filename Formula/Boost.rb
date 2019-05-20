@@ -17,8 +17,10 @@ class Boost < Formula
     bootstrap_args = %W[
       --prefix=#{prefix}
       --libdir=#{lib}
-      --with-icu=#{icu4c_prefix}
     ]
+    
+    #deleted
+    #--with-icu=#{icu4c_prefix}
 
     # Handle libraries that will not be built.
     without_libraries = ["python", "mpi"]
