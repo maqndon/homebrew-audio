@@ -1,4 +1,4 @@
-class pkgc < Formula
+class Pkgc < Formula
   desc "Manage compile and link flags for libraries"
   homepage "https://freedesktop.org/wiki/Software/pkg-config/"
   url "http://pkgconfig.freedesktop.org/releases/pkg-config-0.28.tar.gz"
