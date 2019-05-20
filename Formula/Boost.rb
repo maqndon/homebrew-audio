@@ -35,7 +35,6 @@ class Boost < Formula
       --libdir=#{lib}
       -d2
       -j#{ENV.make_jobs}
-      --layout=tagged-1.66
       --user-config=user-config.jam
       -sNO_LZMA=1
       -sNO_ZSTD=1
@@ -43,7 +42,10 @@ class Boost < Formula
       threading=multi,single
       link=shared,static
     ]
-
+    
+    #deleted 
+    #--layout=tagged-1.66
+    
     # Boost is using "clang++ -x c" to select C compiler which breaks C++14
     # handling using ENV.cxx14. Using "cxxflags" and "linkflags" still works.
     args << "cxxflags=-std=c++14"
