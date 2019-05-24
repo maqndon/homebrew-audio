@@ -33,4 +33,4 @@ I will try to install all the dependencies from https://nightly.ardour.org/list.
 Already done:
 
 1.- pkg-config 0.28.
-2.- 
+2.- boost_1.49.0
