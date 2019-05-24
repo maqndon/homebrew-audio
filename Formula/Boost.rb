@@ -43,6 +43,7 @@ class Boost < Formula
       install
       threading=multi,single
       link=shared,static
+      --layout=tagged
     ]
     
     #deleted 
