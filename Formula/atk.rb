@@ -2,7 +2,7 @@ class Atk < Formula
   desc "GNOME accessibility toolkit"
   homepage "https://library.gnome.org/devel/atk/"
   url "http://ftp.gnome.org/pub/GNOME/sources/atk/2.14/atk-2.14.0.tar.xz"
-  sha256 "cb41feda7fe4ef0daa024471438ea0219592baf7c291347e5a858bb64e4091c"
+  sha256 "2875cc0b32bfb173c066c22a337f79793e0c99d2cc5e81c4dac0d5a523b8fbad"
 
   #depends_on "gobject-introspection" => :build
   #depends_on "meson" => :build
