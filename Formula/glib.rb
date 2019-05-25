@@ -4,13 +4,13 @@ class Glib < Formula
   url "http://ftp.gnome.org/pub/gnome/sources/glib/2.42/glib-2.42.0.tar.xz"
   sha256 "04ab0d560d45790d055f50db2d69974eab8b693a77390075462c56e652b760b9"
 
-  depends_on "meson" => :build
-  depends_on "ninja" => :build
-  depends_on "pkg-config" => :build
-  depends_on "gettext"
-  depends_on "libffi"
-  depends_on "pcre"
-  depends_on "python"
+#  depends_on "meson" => :build
+#  depends_on "ninja" => :build
+#  depends_on "pkg-config" => :build
+#  depends_on "gettext"
+#  depends_on "libffi"
+#  depends_on "pcre"
+#  depends_on "python"
 
   # https://bugzilla.gnome.org/show_bug.cgi?id=673135 Resolved as wontfix,
   # but needed to fix an assumption about the location of the d-bus machine
