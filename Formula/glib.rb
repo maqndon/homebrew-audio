@@ -2,7 +2,7 @@ class Glib < Formula
   desc "Core application library for C"
   homepage "https://developer.gnome.org/glib/"
   url "http://ftp.gnome.org/pub/gnome/sources/glib/2.42/glib-2.42.0.tar.xz"
-  sha256 "04ab0d560d45790d055f50db2d69974eab8b693a77390075462c56e652b760b9"
+  sha256 "94fbc0a7d10633433ff383e540607de649c1b46baaa59dea446a50977a6c4472"
 
 #  depends_on "meson" => :build
 #  depends_on "ninja" => :build
