@@ -36,4 +36,6 @@ Already done:
 
 2.- boost_1.49.0.
 
-3.- 
+3.- libtool 2.4.2
+
+4.-
