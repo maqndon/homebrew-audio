@@ -5,7 +5,10 @@ class Libtool < Formula
   mirror "http://ftpmirror.gnu.org/libtool/libtool-2.4.2.tar.gz"
   sha256 "7c87a8c2c8c0fc9cd5019e402bed4292462d00a718a7cd5f11218153bf28b26f"
   revision 1
-
+  
+#In order to prevent conflicts with Apple's own libtool we have prepended a "g"
+#so, you have instead: glibtool and glibtoolize.
+  
   def install
     ENV["SED"] = "sed" # prevent libtool from hardcoding sed path from superenv
     system "./configure", "--disable-dependency-tracking",
